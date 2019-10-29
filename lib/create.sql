@@ -2,4 +2,4 @@ CREATE TABLE projects (id INTEGER PRIMARY KEY, category TEXT, funding_goal INTEG
 
 CREATE TABLE users (id INTEGER PRIMARY KEY, age INTEGER)
 
-CREATE TABLE pledges 
+CREATE TABLE pledges (id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, project_id INTEGER)
